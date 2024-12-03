@@ -86,11 +86,25 @@ body {
     background-color: #4a4ad8;
 }
 
+.page-status {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
 @media print {
     body {
         width: 100%;
         margin: 0;
     }
+    
+.pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 
     .content-container {
         width: 100%;
@@ -102,3 +116,4 @@ body {
         page-break-before: always;
     }
 }
+

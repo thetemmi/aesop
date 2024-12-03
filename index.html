@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Езоп</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Езоп — Головна</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="header">
-        <img src="logo.png" alt="Лого">
+    <div class="start-page">
+        <header class="start-header">
+            <img src="logo.png" alt="Лого Езопа" class="logo">
+            <h1>Ласкаво просимо до Езопа</h1>
+            <p>Виберіть книгу для читання:</p>
+        </header>
+        <main class="start-content">
+            <!-- Поле для пошуку -->
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Пошук за назвою книги...">
+            </div>
+            <div class="book-buttons" id="book-buttons">
+                <!-- Кнопки для переходу до читання книг -->
+                <a class="book-button" href="library.html?book=kobzar">Кобзар</a>
+                <a class="book-button" href="library.html?book=murashka">Мурашка й Цикада</a>
+                <a class="book-button" href="library.html?book=comet">Комета прилітає</a>
+            </div>
+        </main>
+        <footer class="start-footer">
+            <p>© 2024 Езоп. Усі права захищено.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Контакти</a>
+            </div>
+        </footer>
     </div>
-    <div class="content-container">
-        <div class="title" id="title">Назва твору</div>
-        <div class="author" id="author">Ім'я автора</div>
-        <div class="text" id="text">
-            Текст твору буде розташований тут.
-        </div>
-        <button id="page-button" class="page-button" onclick="nextPage()">Наступна сторінка</button>
-        
-        <!-- Контейнер для кнопок книг -->
-        <div class="book-links" id="book-links">
-            <!-- Кнопки для переходу між книгами будуть додаватися сюди -->
-        </div>
-    </div>
-    <script src="scripts.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>
