@@ -3,7 +3,9 @@ const books = [
     { title: "Кобзар", file: "kobzar.txt" },
     { title: "Мурашка й Цикада", file: "murashka.txt" },
     { title: "Біблія", file: "bible.txt" },
-    { title: "Комета прилітає", file: "comet.txt" }
+    { title: "Комета прилітає", file: "comet.txt" },
+    { title: "Поліанна", file: "polyanna.txt" },
+    { title: "Джури козака Швайки", file: "shvayka.txt" }
 ];
 
 // Ліміт символів на сторінку
