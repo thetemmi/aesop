@@ -2,6 +2,7 @@
 const books = [
     { title: "Кобзар", file: "kobzar.txt" },
     { title: "Мурашка й Цикада", file: "murashka.txt" },
+    { title: "Біблія", file: "bible.txt" },
     { title: "Комета прилітає", file: "comet.txt" }
 ];
 
